@@ -1,6 +1,7 @@
+
 FROM python:3.6
 
-RUN mkdir /app
+RUN mkdir -p /app/target
 
 WORKDIR /app
 
